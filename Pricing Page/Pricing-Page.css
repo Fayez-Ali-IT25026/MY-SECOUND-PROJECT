@@ -9,14 +9,12 @@ body {
 
 
 nav ul {
+    border: 1px solid rgb(47, 18, 196);
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
 
-nav ul {
-    border: 1px solid rgb(47, 18, 196);
-}
 
 nav ul li {
     margin-right: 20px;
@@ -52,12 +50,12 @@ nav ul li a {
 .pricing-card {
     border: 2px solid darkblue;
     background-color: blueviolet;
-    list-style: none;
     margin: 30px;
     padding: 10px;
     width: 150px;
     flex: 1;
-    
+
+
 }
 
 .Popular {
@@ -65,8 +63,6 @@ nav ul li a {
 
     border: 2px solid darkblue;
     background-color: blueviolet;
-    list-style: none;
-
     padding: 20px;
     width: 250px;
     flex: 1;
@@ -88,7 +84,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-< !-- TABEL CSS -->
+/*  TABEL CSS */
 
 h1 {
     text-align: center;
@@ -124,7 +120,7 @@ tr:hover {
 
 
 
-.bottom-bar{
+.bottom-bar {
 
     border: 5px solid black;
     position: fixed;
