@@ -1,0 +1,16 @@
+.login-box {
+    border: 3px solid rgb(87, 163, 184);
+    padding: 20px;
+    background-color: beige;
+    width: 30%;
+    align-items: center;
+
+}
+
+h3{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
