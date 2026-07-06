@@ -1,0 +1,30 @@
+body{
+    background-color: bisque;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 30px repeat(6, 50px);/*copy and past it */
+    gap: 10px;
+
+}
+
+
+.day{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.week{
+    background-color: rgb(23, 90, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
