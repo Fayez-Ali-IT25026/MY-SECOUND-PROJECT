@@ -8,9 +8,30 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #2E2622;
+    padding: 20px 35px;
 }
 
 .nav-left h3{
     color: #E9B44C;
-    padding: 5px 10px;
+    
+}
+
+.nav-right ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-right ul li a:hover{
+    color: aqua;
+}
+
+head{
+    background-image: url('./image/chocolate.png');
+    height: 90vh;
 }
