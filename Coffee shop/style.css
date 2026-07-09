@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E2622;
+}
+
+.nav-left h3{
+    color: #E9B44C;
+    padding: 5px 10px;
+}
